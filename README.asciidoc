@@ -1,0 +1,13 @@
+AgMIP BOMs
+==========
+
+The AgMIP BOMs provide version management for depenedencies in AgMIP products, ensuring
+developers have a compatable development stack. This also provides profiles for deploying
+snapshots (`agmip-deploy`) and releases (`agmip-release`) to Maven Central. The
+`agmip-deploy` profile is on by default; the `agmip-release` profile requires
+configuration inside your `settings.xml` and is outside the scope of this README.
+
+Usage
+-----
+
+COMING SOON
