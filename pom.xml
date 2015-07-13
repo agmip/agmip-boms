@@ -71,6 +71,10 @@
     <version.geohash>1.1.0</version.geohash>
   </properties>
 
+  <modules>
+    <module>agmip-libraries-parent</module>
+  </modules>
+
   <organization>
     <name>AgMIP</name>
     <url>http://www.agmip.org/</url>
