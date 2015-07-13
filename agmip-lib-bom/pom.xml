@@ -10,9 +10,9 @@
     <version>2.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>agmip-libraries-parent</artifactId>
+  <artifactId>agmip-libraries-bom</artifactId>
   <packaging>pom</packaging>
-  <name>AgMIP Libraries Parent</name>
+  <name>AgMIP Libraries BOM</name>
   <description>AgMIP Dependency Management for AgMIP library development.</description>
   <url>http://www.agmip.org/</url>
 

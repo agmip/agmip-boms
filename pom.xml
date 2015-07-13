@@ -72,7 +72,7 @@
   </properties>
 
   <modules>
-    <module>agmip-libraries-parent</module>
+    <module>agmip-lib-bom</module>
   </modules>
 
   <organization>
