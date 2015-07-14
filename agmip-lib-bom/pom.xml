@@ -6,11 +6,11 @@
 
   <parent>
     <groupId>org.agmip.bom</groupId>
-    <artifactId>agmip-bom-parent</artifactId>
+    <artifactId>agmip-parent-bom</artifactId>
     <version>2.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>agmip-libraries-bom</artifactId>
+  <artifactId>agmip-lib-bom</artifactId>
   <packaging>pom</packaging>
   <name>AgMIP Libraries BOM</name>
   <description>AgMIP Dependency Management for AgMIP library development.</description>
