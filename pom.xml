@@ -69,6 +69,9 @@
     <version.guava>18.0</version.guava>
     <version.opencsv>3.4</version.opencsv>
     <version.geohash>1.1.0</version.geohash>
+    <version.freemarker>2.3.23</version.freemarker>
+    <!-- MS Access -->
+    <version.jackcess>2.1.2</version.jackcess>
   </properties>
 
   <modules>

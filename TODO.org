@@ -1,0 +1,8 @@
+* TODO Add translator support [0%]
+  - [ ] Look through existing translators to see what is being used
+        - [ ] APSIM
+        - [ ] DSSAT
+        - [ ] WOFOST
+        - [ ] STICS
+        - ...
+  - [ ] Add MS Access support for ecofi translator
