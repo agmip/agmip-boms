@@ -45,6 +45,11 @@
         <version>${version.jackson}</version>
       </dependency>
       <dependency>
+        <groupId>com.fasterxml.jackson.databind</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${version.jackson}</version>
+      </dependency>
+      <dependency>
         <groupId>com.opencsv</groupId>
         <artifactId>opencsv</artifactId>
         <version>${version.opencsv}</version>
@@ -53,6 +58,31 @@
         <groupId>org.freemarker</groupId>
         <artifactId>freemarker</artifactId>
         <version>${version.freemarker}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.healthmarketscience.jackcess</groupId>
+        <artifactId>jackcess</artifactId>
+        <version>${version.jackcess}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>${version.legacy-commons-io}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.velocity</groupId>
+        <artifactId>velocity</artifactId>
+        <version>${version.legacy-velocity}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.ximpleware</groupId>
+        <artifactId>vtd-xml</artifactId>
+        <version>${version.legacy-vtd-xml}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.jackson</groupId>
+        <artifactId>jackson-mapper-asl</artifactId>
+        <version>${version.legacy-jackson}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
