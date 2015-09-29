@@ -1,0 +1,7 @@
+* TODO Add translator support [100%]
+  - [X] Look through existing translators to see what is being used
+        - [X] commons-io (1.3.2)
+        - [X] jackson-mapper-asl
+        - [X] velocity
+        - [X] xml-vtd
+  - [X] Add MS Access support for ecofi translator
