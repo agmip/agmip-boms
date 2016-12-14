@@ -10,14 +10,19 @@
     <version>2.0.1</version>
   </parent>
 
-  <artifactId>agmip-lib-bom</artifactId>
+  <artifactId>agmip-translator-bom</artifactId>
   <packaging>pom</packaging>
-  <name>AgMIP Libraries BOM</name>
-  <description>AgMIP Dependency Management for AgMIP library development.</description>
+  <name>AgMIP Translator BOM</name>
+  <description>AgMIP Dependency Management for AgMIP translator development.</description>
   <url>http://www.agmip.org/</url>
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.agmip.ace</groupId>
+        <artifactId>ace-core</artifactId>
+        <version>2.0.1-SNAPSHOT</version>
+      </dependency>
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
@@ -45,14 +50,44 @@
         <version>${version.jackson}</version>
       </dependency>
       <dependency>
+        <groupId>com.fasterxml.jackson.databind</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${version.jackson}</version>
+      </dependency>
+      <dependency>
         <groupId>com.opencsv</groupId>
         <artifactId>opencsv</artifactId>
         <version>${version.opencsv}</version>
       </dependency>
       <dependency>
-        <groupId>ch.hsr</groupId>
-        <artifactId>geohash</artifactId>
-        <version>${version.geohash}</version>
+        <groupId>org.freemarker</groupId>
+        <artifactId>freemarker</artifactId>
+        <version>${version.freemarker}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.healthmarketscience.jackcess</groupId>
+        <artifactId>jackcess</artifactId>
+        <version>${version.jackcess}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>${version.legacy-commons-io}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.velocity</groupId>
+        <artifactId>velocity</artifactId>
+        <version>${version.legacy-velocity}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.ximpleware</groupId>
+        <artifactId>vtd-xml</artifactId>
+        <version>${version.legacy-vtd-xml}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.jackson</groupId>
+        <artifactId>jackson-mapper-asl</artifactId>
+        <version>${version.legacy-jackson}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
